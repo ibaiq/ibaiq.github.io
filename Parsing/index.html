@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh_CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>解析</title>
+    <link rel="stylesheet" href="m3u8.css">
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+    <div id="loading" align="center" style="color:#888888">
+        <strong><br><br><br><br><br>
+        </strong>
+        <div class="sp-p" style="text-align: center;">
+            <h2 style="color:#0000FF">&nbsp;</h2>
+            <h2 style="color:#0000FF">&nbsp;</h2>
+            <h2 style="color:#0000FF">&nbsp;</h2>
+            <h2 style="color:#0000FF">&nbsp;</h2>
+            <h2 style="color:#0000FF">&nbsp;</h2>
+            <h2 style="color:#FFFFFF; font-size: 20px;">
+                <strong>URL：</strong>
+                <input class="input" id="url" type="text" placeholder="粘贴url">
+                <a id="click">解析</a>
+            </h2>
+            <h2 style="color:#0000FF">&nbsp;</h2>
+            <h2 style="color:#0000FF">&nbsp;</h2>
+            <h2 style="color:#0000FF">&nbsp;</h2>
+            <h2 style="color:#0000FF">&nbsp;</h2>
+            <h2 style="color:#0000FF">&nbsp;</h2>
+            <h2 style="color:#0000FF">&nbsp;</h2>
+            <h2 style="color:#0000FF">&nbsp;</h2>
+            <h2 style="color:#0000FF">&nbsp;</h2>
+        </div>
+        <a>
+            <strong></strong>
+        </a>
+    </div>
+
+    <script type="text/javascript">
+
+        $(function () {
+
+            $('#click').click(function () {
+                let url = document.getElementById('url');
+                location.href = 'https://jx.m3u8.tv/jiexi/?url=' + url.value
+            })
+
+        });
+
+    </script>
+
+</body>
+</html>
