@@ -1,1 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0e2c36"],{"7fa2":function(n,c,e){"use strict";function o(n,c){return"您没有权限"}e.r(c);var r=e("6b0d"),t=e.n(r);const u={},d=t()(u,[["render",o]]);c["default"]=d}}]);
